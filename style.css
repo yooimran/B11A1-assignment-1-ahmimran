@@ -129,7 +129,7 @@ main{
     border-radius: 20px;
     gap: 20px;
     text-align: left;
-    
+    margin-bottom: 20px;
 }
 
 .box11bg{
@@ -200,3 +200,123 @@ main{
     background-color: #e0a72c; 
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
 }
+.quote{
+    background-image: url(./assets/quote-bg.png);
+    background-repeat: no-repeat;
+    background-position-x: 1.5%;
+    
+
+}
+.quote{
+    
+    background-color: #FFFFFF;
+    width: 70%;
+    margin: 0 auto;
+    align-items: center;
+    padding: 20px;
+    justify-content: space-around;
+    border-radius: 20px;
+    gap: 20px;
+    text-align: left;
+    margin-bottom: 40px;
+
+}
+.quote-des{
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.8);
+}
+.quote-name{
+    font-size: 20px;
+    font-weight: bold;
+    color: #0E0E0E;
+}
+.quote-des1{
+    font-size: 16px;
+    
+    color: rgba(14, 14, 14, 0.6);
+}
+/* option table */
+.option-table{
+    background-color: #FFFFFF;
+    width: 70%;
+    margin: 0 auto;
+    align-items: center;
+    padding: 20px;
+    justify-content: space-around;
+    border-radius: 20px;
+    gap: 20px;
+    text-align: left;
+}
+    .your-op-title{
+     font-size: 45px;
+    font-weight: bold;
+    color: #0E0E0E;
+    padding: 0px 0px 0px 0px;
+    margin: 0 auto;
+    width: 100%;
+    text-align: left;
+
+    }
+
+.table-head{
+    background-color: #C6E4D6;
+}
+table {
+    width: 100%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    /* text-align: center; */
+  }
+  th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+  }
+  td:first-child {
+    text-align: left; 
+    vertical-align: middle; 
+  }
+  th {
+    
+    background-color: #C6E4D6;
+    font-weight: bold;
+  }
+  select {
+    
+    
+    background-color: #C6E4D6;
+    padding: 5px;
+    font-size: 14px;
+  }
+  
+  /* recent news */
+  .card{
+    background-color: #FFFFFF;
+    display: flex;
+    width: 70%;
+    margin: 0 auto;
+    /* align-items: center; */
+    padding: 20px;
+    justify-content: space-around;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    
+    gap: 20px;
+    text-align: left;
+    
+  }
+  .news-head{
+    font-size: 32px;
+    font-weight: bold;
+    color: #0E0E0E;
+  }
+  .main-news{
+    color: rgba(14, 14, 14, 0.7) ;
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  .news-img{
+    border-radius: 20px;
+  }
